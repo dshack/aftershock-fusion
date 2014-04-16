@@ -26,9 +26,9 @@ h1, h2 {
 	background-color:transparent;
 }
 
-h3.section  {
-	padding-top: 70px;
-	margin-top:-70px;
+.section  {
+	padding-top: 50px;
+	margin-top:-50px;
 
 }
 
@@ -45,6 +45,7 @@ h3.section  {
 	list-style-type: none;
 }
 
-.section {
-	padding-top:30px;
+.logo {
+	padding-top:10px;
+	max-width:100%;
 }
