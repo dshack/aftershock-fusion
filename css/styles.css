@@ -26,9 +26,15 @@ h1, h2 {
 	background-color:transparent;
 }
 
+h3.section  {
+	padding-top: 70px;
+	margin-top:-70px;
+
+}
+
 .container {
 	background-color:white;
-	margin-top: 20px;
+	margin-top: 60px;
 	border-radius:10px;
 	opacity:0.9;
 	filter:alpha(opacity=40);
@@ -37,4 +43,8 @@ h1, h2 {
 .nomarker {
 
 	list-style-type: none;
+}
+
+.section {
+	padding-top:30px;
 }

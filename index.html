@@ -21,45 +21,65 @@
 
 <body>
 
-	 <div class="container center-block">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Aftershock Fusion</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#details">Details</a></li>
+        <li><a href="#reg">Registration</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#team">The Team</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <div id="top" class="container center-block">
 	    <header>
 	        <h1>Aftershock Fusion</h1>
 	        <h4>June 6-8 2014</h4>
 	        <h4><em>From the ashes of the Fusion Exchange and Atomic Blues Fusion, Aftershock will be a community-focused, affordable, and <strong>FUN</strong> dance weekend in San Francisco, CA.</em></h4>
 	     </header>
-		<div class="details">
+		<div id="details" class="details section col-sm-12 col-md-12">
 		   <h3>Details</h3>
-					<ul>
-						<li>Friday, Saturday, and Sunday night dancing with awesome DJs and live music at Danzhaus in San Francisco, CA. Come a few days early - SF has great blues, swing, tango, and WCS venues all week long.</li>
+					<ul style="padding-top:15px">
+						<li>Friday, Saturday, and Sunday night dancing with awesome DJs and live music at <a href="http://danzhaus.tripod.com/" target="_blank">Danzhaus</a> in San Francisco, CA. Come a few days early - SF has great blues, swing, tango, and WCS venues all week long.</li>
 						<li><strong>Non-profit organization:</strong> any extra funds will be directed back to the community. Through affordable passes, volunteer opportunities, and scholarships, we're committed to making the event accessible to everyone.</li>
 						<li>Currently recruiting coordinators (local hosting, food, others), DJs, and volunteers (see below).</li>
 					</ul>
+
+
+
+
 		</div>
 
-		<div class="registration">
+
+		<div id="reg" class="registration section col-sm-12 col-md-12">
 			<h3>Registration</h3>
 			<p>If the embedded widget below does not work, click <a href="http://www.eventzilla.net/web/event?eventid=2139028183">here</a> to purchase tickets. And RSVP to our <a href="https://www.facebook.com/events/585936231484089/" target="_blank">Facebook event!</a></p>
 
-			<div style='width:100%; text-align:left;'><iframe id='ezframe' width='100%' scrolling='auto' height='260' frameborder='0' allowtransparency='true' hspace='0' vspace='0' marginheight='5' marginwidth='5' src='http://www.eventzilla.net/web/event_ext.aspx?EventID=2139028183' name='ezframe'></iframe></div>
-
-		</div>
-
-
-		<div class="apps">
-			<h3>DJ/Staff Applications</h3>
+			<div style='width:100%; text-align:left;'><iframe id='ezframe' width='100%' scrolling='auto' height='300' frameborder='0' allowtransparency='true' hspace='0' vspace='0' marginheight='5' marginwidth='5' src='http://www.eventzilla.net/web/event_ext.aspx?EventID=2139028183' name='ezframe'></iframe></div>
 			<p>If you'd like to DJ or help out at Atomic, please use the links below:</p>
 			<ul>
 				<li><a href="http://bitly.com/aftershock_DJ" target="_blank">DJ Application</a></li>
 				<li><a href="http://bitly.com/aftershock_volunteer" target="_blank">Organizer/Volunteer Application</a></li>
 			</ul>
-
-
 		</div>
 
-
-
-
-		<div class="team">
+		<div id="music" class="team section col-sm-12 col-md-12">
 			<h3>Music</h3>
 				 <div="row-fluid">    
 					<div class="col-md-6 col-sm-6">
@@ -73,9 +93,9 @@
 					</div>
 
 					
-
 				</div>
-			<h3 class="col-sm-12 col-md-12">The Team</h3>
+		<div id="team" class="team section col-sm-12 col-md-12">
+			<h3>The Team</h3>
 				 <div="row-fluid">    
 					<div class="col-sm-4 col-md-4">
 						<img src="images/shack.jpg" class="profile-pic"></img>
