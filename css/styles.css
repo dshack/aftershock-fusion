@@ -26,10 +26,9 @@ h1, h2 {
 	background-color:transparent;
 }
 
-.section  {
-	padding-top: 50px;
-	margin-top:-50px;
-
+.anchor {
+	margin-top: -60px;
+	padding-top: 60px;
 }
 
 .container {
