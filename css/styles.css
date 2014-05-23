@@ -53,3 +53,10 @@ h1, h2 {
 @media all and (max-width:599px){
     html{background:#fff}
 }
+
+@media all and (max-width: 600px) {
+    iframe {
+        display:none;
+        background: url(images/danzhaus.png);
+    }
+}
