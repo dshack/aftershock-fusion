@@ -50,6 +50,7 @@ h1, h2 {
 	max-width:100%;
 }
 
+
 @media all and (max-width:599px){
     html{background:#fff}
 }
@@ -60,3 +61,12 @@ h1, h2 {
         background: url(images/danzhaus.png);
     }
 }
+
+@media all and (max-width:700px){
+    .horizontal-schedule{display:none;}
+}
+
+@media all and (min-width:700px){
+    .vertical-schedule{display:none;}
+}
+
